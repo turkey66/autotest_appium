@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+
+
+{% for page, value in pageElements.items() %}
+class {{page}}:{% for locator in value['locators'] %}
+    {{locator['name']}} = ("{{locator['type']}}", {% if "(" in locator['value'] and ")" in locator['value'] %}{{locator['value']}}{% else %}"{{locator['value']}}"{% endif %}){% endfor %}
+
+{% endfor %}
+
+

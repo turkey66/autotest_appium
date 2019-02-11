@@ -1,0 +1,24 @@
+---
+device_1:
+  name: 华为mate9_7.0
+  cap:
+    platformName: "Android"
+    automationName: "uiautomator2"
+    deviceName: '3HX7N16C12000285'
+    udid: '3HX7N16C12000285'
+    app: "C:\\autotest_appium\\com.webank.wemoney.1901091738.apk"
+    appPackage: "com.webank.wemoney"
+    appActivity: "com.webank.wemoney.EmptyActivity"
+    noReset: True
+
+device_2:
+  name: 安卓模拟器_4.4
+  cap:
+    platformName: "Android"
+    automationName: "uiautomator2"
+    deviceName: '3HX7N16C12000285'
+    udid: '3HX7N16C12000285'
+    app: "C:\\autotest_appium\\com.webank.wemoney.1901091738.apk"
+    appPackage: "com.webank.wemoney"
+    appActivity: "com.webank.wemoney.EmptyActivity"
+    noReset: True

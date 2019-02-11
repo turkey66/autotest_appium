@@ -1,0 +1,12 @@
+---
+Homepage:
+    dec: 登录流程的页面元素
+    locators:
+      -
+        name: 一键登录
+        type: location
+        value: (547,444)
+      -
+        name: QQ登录
+        type: location
+        value: (547,444)
