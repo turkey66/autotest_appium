@@ -1,0 +1,159 @@
+2019/03/03 01:39:04 - pytest - [INFO] - 开始执行module: cases.test_unlock
+2019/03/03 01:39:04 - pytest - [INFO] - 执行case: test_02
+2019/03/03 01:39:08 - pytest - [INFO] - 启动App
+2019/03/03 01:39:12 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+2019/03/03 01:39:12 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[4]
+2019/03/03 01:39:12 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[8]
+2019/03/03 01:39:12 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[6]
+2019/03/03 01:39:12 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[3]
+2019/03/03 01:39:17 - pytest - [INFO] - 解锁九宫格：[<appium.webdriver.webelement.WebElement (session="9996da93-7a70-4d1a-9054-a9ac14ece920", element="59df98a4-874d-4f97-ac8f-e367b91566c3")>, <appium.webdriver.webelement.WebElement (session="9996da93-7a70-4d1a-9054-a9ac14ece920", element="e6b305f9-fab6-484a-ac7c-9cf920fdbedd")>, <appium.webdriver.webelement.WebElement (session="9996da93-7a70-4d1a-9054-a9ac14ece920", element="4f3e3962-1cb5-457d-8b61-e9f9dd642abc")>, <appium.webdriver.webelement.WebElement (session="9996da93-7a70-4d1a-9054-a9ac14ece920", element="db4bbb51-cb45-403b-8d80-20845edf0f2f")>, <appium.webdriver.webelement.WebElement (session="9996da93-7a70-4d1a-9054-a9ac14ece920", element="cf4b2e41-1934-4c78-a343-332c5a49e5b7")>]
+2019/03/03 01:39:21 - pytest - [INFO] - C:\autotest_appium\common\screenshot\i20190303013920.png保存图片
+2019/03/03 01:39:21 - pytest - [INFO] - 查找到图片的坐标：(899.0, 1755.0)
+2019/03/03 01:39:21 - pytest - [INFO] - tap元素None，坐标(899.0, 1755.0)
+2019/03/03 01:39:25 - pytest - [INFO] - 关闭App
+2019/03/03 01:39:25 - pytest - [INFO] - 结束执行case: test_02
+2019/03/03 01:39:25 - pytest - [INFO] - 结束执行module: cases.test_unlock
+2019/03/03 01:39:25 - pytest - [INFO] - 当全部用例执行完：teardown quit driver！
+2019/03/03 01:40:41 - pytest - [INFO] - 开始执行module: cases.test_unlock
+2019/03/03 01:40:41 - pytest - [INFO] - 执行case: test_02
+2019/03/03 01:40:45 - pytest - [INFO] - 启动App
+2019/03/03 01:40:47 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+2019/03/03 01:40:48 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[4]
+2019/03/03 01:40:48 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[8]
+2019/03/03 01:40:48 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[6]
+2019/03/03 01:40:48 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[3]
+2019/03/03 01:40:53 - pytest - [INFO] - 解锁九宫格：[<appium.webdriver.webelement.WebElement (session="3b45ab70-1397-40fd-8b7c-bcd78d8ab845", element="2d73f2aa-80f2-4537-9158-f51c695633cf")>, <appium.webdriver.webelement.WebElement (session="3b45ab70-1397-40fd-8b7c-bcd78d8ab845", element="c453178d-cbe8-4824-9a4c-d989a67f50c0")>, <appium.webdriver.webelement.WebElement (session="3b45ab70-1397-40fd-8b7c-bcd78d8ab845", element="c53e9175-61e7-42e2-bd66-0e32368f29e4")>, <appium.webdriver.webelement.WebElement (session="3b45ab70-1397-40fd-8b7c-bcd78d8ab845", element="0a2b191f-b733-47f7-a39e-63d4ba401495")>, <appium.webdriver.webelement.WebElement (session="3b45ab70-1397-40fd-8b7c-bcd78d8ab845", element="f9054048-a082-41c1-be4c-1104a7a8246b")>]
+2019/03/03 01:40:57 - pytest - [INFO] - .\screenshot\i20190303014056.png图片保存失败
+2019/03/03 01:40:58 - pytest - [INFO] - 关闭App
+2019/03/03 01:40:58 - pytest - [INFO] - 结束执行case: test_02
+2019/03/03 01:40:58 - pytest - [INFO] - 结束执行module: cases.test_unlock
+2019/03/03 01:40:58 - pytest - [INFO] - 当全部用例执行完：teardown quit driver！
+2019/03/03 01:48:03 - pytest - [INFO] - 开始执行module: cases.test_unlock
+2019/03/03 01:48:03 - pytest - [INFO] - 执行case: test_02
+2019/03/03 01:48:08 - pytest - [INFO] - 启动App
+2019/03/03 01:48:11 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+2019/03/03 01:48:11 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[4]
+2019/03/03 01:48:11 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[8]
+2019/03/03 01:48:11 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[6]
+2019/03/03 01:48:11 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[3]
+2019/03/03 01:48:16 - pytest - [INFO] - 解锁九宫格：[<appium.webdriver.webelement.WebElement (session="855609f4-715c-4379-a29f-20167325e824", element="627d1214-7343-4f2e-a34f-19395ac5374a")>, <appium.webdriver.webelement.WebElement (session="855609f4-715c-4379-a29f-20167325e824", element="517c7267-ccc2-43a8-8fc8-bf05f03351d6")>, <appium.webdriver.webelement.WebElement (session="855609f4-715c-4379-a29f-20167325e824", element="2c7ce090-dadd-4e9d-9b0f-a026b781f2f3")>, <appium.webdriver.webelement.WebElement (session="855609f4-715c-4379-a29f-20167325e824", element="79e2749b-e504-4cfb-bd0f-0a9d1b117df3")>, <appium.webdriver.webelement.WebElement (session="855609f4-715c-4379-a29f-20167325e824", element="34277ad3-a0d2-428b-9b0d-8fc772c535db")>]
+2019/03/03 01:48:20 - pytest - [INFO] - C:\autotest_appium\common\screenshot\i20190303014819.png保存图片
+2019/03/03 01:48:20 - pytest - [INFO] - 查找到图片的坐标：(899.0, 1755.0)
+2019/03/03 01:48:21 - pytest - [INFO] - tap元素None，坐标(899.0, 1755.0)
+2019/03/03 01:48:24 - pytest - [INFO] - 关闭App
+2019/03/03 01:48:24 - pytest - [INFO] - 结束执行case: test_02
+2019/03/03 01:48:24 - pytest - [INFO] - 结束执行module: cases.test_unlock
+2019/03/03 01:48:24 - pytest - [INFO] - 当全部用例执行完：teardown quit driver！
+2019/03/03 01:50:34 - pytest - [INFO] - 开始执行module: cases.test_unlock
+2019/03/03 01:50:34 - pytest - [INFO] - 执行case: test_01
+2019/03/03 01:50:38 - pytest - [INFO] - 启动App
+2019/03/03 01:50:41 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+2019/03/03 01:50:41 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[4]
+2019/03/03 01:50:41 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[8]
+2019/03/03 01:50:41 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[6]
+2019/03/03 01:50:41 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[3]
+2019/03/03 01:50:46 - pytest - [INFO] - 解锁九宫格：[<appium.webdriver.webelement.WebElement (session="046cd499-3cd8-421d-b95f-a2b2acf9f222", element="b74a0407-3a4d-4647-8df9-1ce495ba457a")>, <appium.webdriver.webelement.WebElement (session="046cd499-3cd8-421d-b95f-a2b2acf9f222", element="3c33421c-725d-4670-9b64-2b6efc1212d4")>, <appium.webdriver.webelement.WebElement (session="046cd499-3cd8-421d-b95f-a2b2acf9f222", element="977cf3ab-d56f-45a0-8101-07c711a328df")>, <appium.webdriver.webelement.WebElement (session="046cd499-3cd8-421d-b95f-a2b2acf9f222", element="d61ff501-5de5-4245-bf9d-63ce523a850f")>, <appium.webdriver.webelement.WebElement (session="046cd499-3cd8-421d-b95f-a2b2acf9f222", element="79e9e11c-d6f0-4d1b-b7d2-f9478ee9588e")>]
+2019/03/03 01:50:52 - pytest - [INFO] - 关闭App
+2019/03/03 01:50:52 - pytest - [INFO] - 结束执行case: test_01
+2019/03/03 01:50:52 - pytest - [INFO] - 执行case: test_02
+2019/03/03 01:50:57 - pytest - [INFO] - 启动App
+2019/03/03 01:50:59 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+2019/03/03 01:50:59 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[4]
+2019/03/03 01:50:59 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[8]
+2019/03/03 01:50:59 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[6]
+2019/03/03 01:50:59 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[3]
+2019/03/03 01:51:05 - pytest - [INFO] - 解锁九宫格：[<appium.webdriver.webelement.WebElement (session="046cd499-3cd8-421d-b95f-a2b2acf9f222", element="9735a704-333a-47f8-8a71-da2e912f462b")>, <appium.webdriver.webelement.WebElement (session="046cd499-3cd8-421d-b95f-a2b2acf9f222", element="dace60d2-b525-4fed-bb17-94f453f02a84")>, <appium.webdriver.webelement.WebElement (session="046cd499-3cd8-421d-b95f-a2b2acf9f222", element="1f84b30f-5f1a-40a0-adc5-cf870c9802d6")>, <appium.webdriver.webelement.WebElement (session="046cd499-3cd8-421d-b95f-a2b2acf9f222", element="aac93d3d-1732-4d3f-8699-f2fc6eb57dbc")>, <appium.webdriver.webelement.WebElement (session="046cd499-3cd8-421d-b95f-a2b2acf9f222", element="c44e8e67-c1d8-4d67-bdc7-9f950905e4c7")>]
+2019/03/03 01:51:08 - pytest - [INFO] - C:\autotest_appium\common\screenshot\i20190303015108.png保存图片
+2019/03/03 01:51:09 - pytest - [INFO] - 查找到图片的坐标：(899.0, 1755.0)
+2019/03/03 01:51:09 - pytest - [INFO] - tap元素None，坐标(899.0, 1755.0)
+2019/03/03 01:51:12 - pytest - [INFO] - 关闭App
+2019/03/03 01:51:12 - pytest - [INFO] - 结束执行case: test_02
+2019/03/03 01:51:12 - pytest - [INFO] - 结束执行module: cases.test_unlock
+2019/03/03 01:51:12 - pytest - [INFO] - 当全部用例执行完：teardown quit driver！
+2019/03/03 01:58:18 - pytest - [INFO] - 开始执行module: cases.test_unlock
+2019/03/03 01:58:18 - pytest - [INFO] - 执行case: test_01
+2019/03/03 01:58:23 - pytest - [INFO] - 启动App
+2019/03/03 01:58:25 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+2019/03/03 01:58:25 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[4]
+2019/03/03 01:58:25 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[8]
+2019/03/03 01:58:25 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[6]
+2019/03/03 01:58:25 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[3]
+2019/03/03 01:58:31 - pytest - [INFO] - 解锁九宫格：[<appium.webdriver.webelement.WebElement (session="781420be-5d34-4187-bc71-5fbd1a2febfa", element="522ba795-f8da-4870-813d-7e0d9318b98f")>, <appium.webdriver.webelement.WebElement (session="781420be-5d34-4187-bc71-5fbd1a2febfa", element="4d121313-bac0-424b-8497-6a13630d906a")>, <appium.webdriver.webelement.WebElement (session="781420be-5d34-4187-bc71-5fbd1a2febfa", element="4b1ff2d9-1abb-418f-92f1-9eeb121f19f9")>, <appium.webdriver.webelement.WebElement (session="781420be-5d34-4187-bc71-5fbd1a2febfa", element="1640848e-d1b0-4aff-a337-29d0752ae079")>, <appium.webdriver.webelement.WebElement (session="781420be-5d34-4187-bc71-5fbd1a2febfa", element="a2ba96ad-a138-430e-8619-a2518d4b372d")>]
+2019/03/03 01:58:40 - pytest - [INFO] - 结束执行case: test_01
+2019/03/03 01:58:41 - pytest - [INFO] - 结束执行module: cases.test_unlock
+2019/03/03 01:58:41 - pytest - [INFO] - 当全部用例执行完：teardown quit driver！
+2019/03/03 02:02:40 - pytest - [INFO] - 开始执行module: cases.test_unlock
+2019/03/03 02:02:40 - pytest - [INFO] - 执行case: test_01
+2019/03/03 02:02:46 - pytest - [INFO] - 启动App
+2019/03/03 02:03:06 - pytest - [ERROR] - 定位方式报错->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+Traceback (most recent call last):
+  File "C:\autotest_appium\common\base_appium.py", line 56, in find_element
+    element = WebDriverWait(driver, timeout or self.timeout, self.t).until(EC.presence_of_element_located(locator))
+  File "c:\python_venv\appium_env\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019/03/03 02:03:47 - pytest - [INFO] - 开始执行module: cases.test_unlock
+2019/03/03 02:03:47 - pytest - [INFO] - 执行case: test_01
+2019/03/03 02:03:53 - pytest - [INFO] - 启动App
+2019/03/03 02:04:13 - pytest - [ERROR] - 定位方式报错->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+Traceback (most recent call last):
+  File "C:\autotest_appium\common\base_appium.py", line 56, in find_element
+    element = WebDriverWait(driver, timeout or self.timeout, self.t).until(EC.presence_of_element_located(locator))
+  File "c:\python_venv\appium_env\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019/03/03 02:04:33 - pytest - [ERROR] - 定位方式报错->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[4]
+Traceback (most recent call last):
+  File "C:\autotest_appium\common\base_appium.py", line 56, in find_element
+    element = WebDriverWait(driver, timeout or self.timeout, self.t).until(EC.presence_of_element_located(locator))
+  File "c:\python_venv\appium_env\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019/03/03 02:04:54 - pytest - [ERROR] - 定位方式报错->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[8]
+Traceback (most recent call last):
+  File "C:\autotest_appium\common\base_appium.py", line 56, in find_element
+    element = WebDriverWait(driver, timeout or self.timeout, self.t).until(EC.presence_of_element_located(locator))
+  File "c:\python_venv\appium_env\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019/03/03 02:14:42 - pytest - [INFO] - 开始执行module: cases.test_unlock
+2019/03/03 02:14:42 - pytest - [INFO] - 执行case: test_01
+2019/03/03 02:14:48 - pytest - [INFO] - 启动App
+2019/03/03 02:15:09 - pytest - [ERROR] - 定位方式报错->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+Traceback (most recent call last):
+  File "C:\autotest_appium\common\base_appium.py", line 56, in find_element
+    element = WebDriverWait(driver, timeout or self.timeout, self.t).until(EC.presence_of_element_located(locator))
+  File "c:\python_venv\appium_env\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019/03/03 02:18:15 - pytest - [INFO] - 开始执行module: cases.test_unlock
+2019/03/03 02:18:15 - pytest - [INFO] - 执行case: test_01
+2019/03/03 02:18:20 - pytest - [INFO] - 启动App
+2019/03/03 02:18:22 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+2019/03/03 02:18:22 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[4]
+2019/03/03 02:18:22 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[8]
+2019/03/03 02:18:22 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[6]
+2019/03/03 02:18:22 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[3]
+2019/03/03 02:18:28 - pytest - [INFO] - 解锁九宫格：[<appium.webdriver.webelement.WebElement (session="7fcaf761-8613-4c8f-a69f-9f5684502096", element="87ad67cc-b202-40ae-839d-33b6baf53072")>, <appium.webdriver.webelement.WebElement (session="7fcaf761-8613-4c8f-a69f-9f5684502096", element="d378ad37-dc59-46fa-899d-698e729b6251")>, <appium.webdriver.webelement.WebElement (session="7fcaf761-8613-4c8f-a69f-9f5684502096", element="b1f2b573-1ad1-4efc-8cf4-e94e648540ea")>, <appium.webdriver.webelement.WebElement (session="7fcaf761-8613-4c8f-a69f-9f5684502096", element="b4797ce5-8c80-4f79-ad29-5b68b34464e5")>, <appium.webdriver.webelement.WebElement (session="7fcaf761-8613-4c8f-a69f-9f5684502096", element="209b7c9e-3dd5-48c8-bd5c-864b88006b59")>]
+2019/03/03 02:18:34 - pytest - [INFO] - 关闭App
+2019/03/03 02:18:34 - pytest - [INFO] - 结束执行case: test_01
+2019/03/03 02:18:34 - pytest - [INFO] - 执行case: test_02
+2019/03/03 02:18:39 - pytest - [INFO] - 启动App
+2019/03/03 02:18:41 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+2019/03/03 02:18:41 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[4]
+2019/03/03 02:18:41 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[8]
+2019/03/03 02:18:41 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[6]
+2019/03/03 02:18:41 - pytest - [INFO] - 定位元素信息：定位方式->xpath, value值->//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[3]
+2019/03/03 02:18:46 - pytest - [INFO] - 解锁九宫格：[<appium.webdriver.webelement.WebElement (session="7fcaf761-8613-4c8f-a69f-9f5684502096", element="fa5ff2cd-9061-4046-b5a2-9e48639e35df")>, <appium.webdriver.webelement.WebElement (session="7fcaf761-8613-4c8f-a69f-9f5684502096", element="8c290f70-5152-4fae-9775-0b2fe8906cd7")>, <appium.webdriver.webelement.WebElement (session="7fcaf761-8613-4c8f-a69f-9f5684502096", element="be9c647a-a246-4bb6-baff-cad3413f476a")>, <appium.webdriver.webelement.WebElement (session="7fcaf761-8613-4c8f-a69f-9f5684502096", element="ddb66dde-ed4b-4ddd-be81-e4057e5d82fe")>, <appium.webdriver.webelement.WebElement (session="7fcaf761-8613-4c8f-a69f-9f5684502096", element="96b445f6-f00a-405f-a44f-3d723e6d57f5")>]
+2019/03/03 02:18:50 - pytest - [INFO] - C:\autotest_appium\common\screenshot\i20190303021849.png保存图片
+2019/03/03 02:18:50 - pytest - [INFO] - 查找到图片的坐标：(899.0, 1755.0)
+2019/03/03 02:18:50 - pytest - [INFO] - tap元素None，坐标(899.0, 1755.0)
+2019/03/03 02:18:54 - pytest - [INFO] - 关闭App
+2019/03/03 02:18:54 - pytest - [INFO] - 结束执行case: test_02
+2019/03/03 02:18:54 - pytest - [INFO] - 结束执行module: cases.test_unlock
+2019/03/03 02:18:54 - pytest - [INFO] - 当全部用例执行完：teardown quit driver！

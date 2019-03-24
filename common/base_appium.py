@@ -1,4 +1,5 @@
 import os
+import time
 
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -6,7 +7,7 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.action_chains import ActionChains
 from appium.webdriver.common.touch_action import TouchAction
 from appium.webdriver.common.multi_action import MultiAction
-
+import aircv as ac
 
 class Base:
     '''
@@ -17,6 +18,8 @@ class Base:
         self.timeout = 20
         self.t = 0.5
         self.logger = logger
+        self.path_imlocator = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', 'pages', 'locators', 'images')
+        self.path_screenshot = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'screenshot')
 
     def return_driver(self):
         return self.driver
@@ -78,10 +81,15 @@ class Base:
         element.send_keys(text)
         self.logger.info("输入信息：%s"% text)
 
-    def tap_(self, position=(None, None), locator=None, element=None, driver=None):
+    def tap(self, position=(None, None), locator=None, element=None, driver=None):
         '''单点触摸元素'''
         driver = self._get_driver(driver)
-        element = self._get_element(locator, element, driver)
+
+        if locator and locator[0] == 'image':
+            position = self.get_image_location(isearch=locator[1])
+        else:
+            element = self._get_element(locator, element, driver)
+
         TouchAction(driver).tap(element=element, x=position[0], y=position[1]).perform()
         self.logger.info("tap元素%s，坐标%s" %(element, position))
 
@@ -275,7 +283,7 @@ class Base:
         return location
 
     def get_phone_size(self, type, driver=None):
-        '''获取手机的宽width、高height'''
+        '''获取手机的宽width、高height，int类型'''
         driver = self._get_driver(driver)
         size = driver.get_window_size()
         self.logger.info("获取%s: %s" %(type, size[type]))
@@ -346,7 +354,7 @@ class Base:
         driver.switch_to.context("NATIVE_APP")
         self.logger.info("切换到native app")
 
-    def tap(self, positions, duration=None, driver=None):
+    def mult_tap(self, positions, duration=None, driver=None):
         '''多点触摸positions  # 需要传list 做多传5个坐标  [(1,2),(3,4)]'''
         driver = self._get_driver(driver)
         driver.tap(positions=positions, duration=duration)
@@ -399,6 +407,32 @@ class Base:
         pic_base64 = driver.get_screenshot_as_base64()
         self.logger.info("截图")
         return pic_base64
+
+    def get_screenshot_as_file(self, file, driver=None):
+        '''截图png,包存起来'''
+        driver = self._get_driver(driver)
+        res = driver.get_screenshot_as_file(file)
+        if res:
+            self.logger.info("%s保存图片" % file)
+            return True
+        else:
+            self.logger.info("%s图片保存失败" % file)
+            return False
+
+    def get_image_location(self, isearch, driver=None):
+        '''获取 模板图片在原图片的中间坐标 (36.5, 79.5)'''
+        driver = self._get_driver(driver)
+        file = os.path.join(self.path_screenshot, "i" + time.strftime('%Y%m%d%H%M%S',time.localtime(time.time())) + ".png")
+        self.get_screenshot_as_file(file, driver=driver)  # 原始图像
+        imsrc = ac.imread(file)  # 原始图像
+        imsch = ac.imread(os.path.join(self.path_imlocator, isearch.split("/")[0], isearch.split("/")[1]))  # 带查找的部分
+        posi = ac.find_sift(imsrc, imsch)
+        if posi:
+            self.logger.info("查找到图片的坐标：%s" % str(posi['result']))
+            return posi['result']
+        else:
+            self.logger.info("Error没有找到图片的坐标：%s" % isearch)
+            return False
 
     def exec_adb(self, command):
         '''执行adb命令'''

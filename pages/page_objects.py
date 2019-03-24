@@ -3,8 +3,7 @@
 
 
 class Homepage:
-    一键登录 = ("location", (547,444))
-    QQ登录 = ("location", (547,444))
+    权益 = ("image", "homepage/quanyi.jpg")
 
 
 class LoginPage:

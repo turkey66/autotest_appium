@@ -9,6 +9,7 @@ from pages.tools import yamlLocator_to_pageObject
 
 yamlLocator_to_pageObject()
 
+
 os.system('cd C:/autotest_appium')
 os.system('pytest \
 --host=127.0.0.1:4723 --device=device_1 \
